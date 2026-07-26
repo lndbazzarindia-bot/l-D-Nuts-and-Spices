@@ -60,7 +60,7 @@ const PRODUCTS = [
   { name: "Kadugu (Mustard Seeds)", pack: "100 gm", price: 25, cat: "spices", img: P + "mustard.jpg" },
   { name: "Venthayam (Fenugreek)", pack: "100 gm", price: 25, cat: "spices", img: P + "fenugreek.jpg" },
   { name: "Ajwain (Omum)", pack: "100 gm", price: 60, cat: "spices", img: P + "ajwain.jpg" },
-  { name: "Kasa Kasa (Poppy Seeds)", pack: "50 gm", price: 125, cat: "spices", img: P + "chia.jpg" },
+  { name: "Kasa Kasa (Poppy Seeds)", pack: "50 gm", price: 125, cat: "spices", img: P + "poppyseeds.jpg" },
   { name: "Pattai (Cinnamon Bark)", pack: "50 gm", price: 40, cat: "spices", img: "assets/img/t/u-pattai-cinnamon-bark.jpg" },
   { name: "Surul Pattai (Cinnamon Rolls)", pack: "25 gm", price: 80, cat: "spices", img: "assets/img/t/u-surul-pattai-cinnamon-bark.jpg" },
   { name: "Lavangam (Clove)", pack: "50 gm", price: 60, cat: "spices", img: "assets/img/t/u-lavangam-clove.jpg" },

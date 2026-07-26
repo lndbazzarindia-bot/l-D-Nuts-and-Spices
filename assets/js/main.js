@@ -219,7 +219,7 @@ document.addEventListener("click", e => {
   if (!searchPanel.hidden && !searchPanel.contains(e.target) && !e.target.closest(".nav-search")) searchPanel.hidden = true;
 });
 
-/* ---------- shelves: every category slides right to left ---------- */
+/* ---------- shelves: manual navigation with (< >) controls ---------- */
 
 function shelfCard(p) {
   const card = document.createElement("article");
@@ -236,6 +236,7 @@ function shelfCard(p) {
 
 function buildShelves() {
   const wrap = document.getElementById("shelves");
+  wrap.innerHTML = "";
   CAT_ORDER.forEach(cat => {
     const items = PRODUCTS.filter(p => p.cat === cat);
     if (!items.length) return;
@@ -245,7 +246,15 @@ function buildShelves() {
 
     const head = document.createElement("div");
     head.className = "shelf-head";
-    head.innerHTML = `<h3>${CATEGORY_LABELS[cat]}</h3><span>${items.length} items</span>`;
+    head.innerHTML =
+      `<div class="shelf-head-info">` +
+      `<h3>${CATEGORY_LABELS[cat]}</h3>` +
+      `<span>${items.length} items</span>` +
+      `</div>` +
+      `<div class="shelf-nav">` +
+      `<button class="shelf-nav-btn shelf-prev" aria-label="Previous item">&lt;</button>` +
+      `<button class="shelf-nav-btn shelf-next" aria-label="Next item">&gt;</button>` +
+      `</div>`;
     shelf.appendChild(head);
 
     const viewport = document.createElement("div");
@@ -254,25 +263,20 @@ function buildShelves() {
     track.className = "shelf-track";
 
     items.forEach(p => track.appendChild(shelfCard(p)));
-    if (motionOK) {
-      items.forEach(p => track.appendChild(shelfCard(p))); /* duplicate for a seamless loop */
-    }
 
     viewport.appendChild(track);
     shelf.appendChild(viewport);
     wrap.appendChild(shelf);
 
-    if (motionOK) {
-      const tween = gsap.to(track, {
-        xPercent: -50,
-        ease: "none",
-        repeat: -1,
-        duration: Math.max(18, items.length * 4)
-      });
-      viewport.addEventListener("pointerenter", () => tween.pause());
-      viewport.addEventListener("pointerleave", () => tween.play());
-      viewport.addEventListener("touchstart", () => tween.paused(!tween.paused()), { passive: true });
-    }
+    const prevBtn = head.querySelector(".shelf-prev");
+    const nextBtn = head.querySelector(".shelf-next");
+
+    prevBtn.addEventListener("click", () => {
+      viewport.scrollBy({ left: -220, behavior: "smooth" });
+    });
+    nextBtn.addEventListener("click", () => {
+      viewport.scrollBy({ left: 220, behavior: "smooth" });
+    });
   });
 
   ScrollTrigger.refresh();
