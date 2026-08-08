@@ -8,67 +8,57 @@
   <link rel="icon" type="image/jpeg" href="../assets/img/logo.jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="admin.css">
 </head>
 <body>
-  <div id="login-screen" class="screen">
-    <div class="login-card">
-      <img src="../assets/img/logo.jpeg" alt="L&amp;D" class="login-logo">
-      <h1>Shop Admin</h1>
-      <p>Sign in to update product prices and images.</p>
-      <form id="login-form">
-        <label for="password">Password</label>
-        <input type="password" id="password" autocomplete="current-password" required>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-        <p id="login-error" class="error" hidden></p>
+  <div id="loading-screen" class="loading-screen">
+    <div class="spinner" aria-hidden="true"></div>
+  </div>
+
+  <div id="login-screen" class="screen" hidden>
+    <div class="login-wrap">
+      <h1 class="display-title">Admin Login</h1>
+      <p class="subtitle">Update product prices and images</p>
+      <form id="login-form" class="login-form">
+        <input type="password" id="password" placeholder="Password" autocomplete="current-password" required>
+        <p id="login-error" class="form-error" hidden></p>
+        <button type="submit" class="btn btn-dark btn-block">Sign in</button>
       </form>
       <a href="/" class="back-link">← Back to website</a>
     </div>
   </div>
 
   <div id="admin-screen" class="screen" hidden>
-    <header class="admin-header">
-      <div class="admin-brand">
-        <img src="../assets/img/logo.jpeg" alt="">
+    <div class="admin-container">
+      <header class="admin-top">
         <div>
-          <strong>L&amp;D Admin</strong>
-          <span>Prices &amp; images</span>
+          <h1 class="display-title">Manage Products</h1>
+          <p class="subtitle">Edit prices and photos for the shop catalogue</p>
         </div>
-      </div>
-      <div class="admin-actions">
-        <input type="search" id="search" placeholder="Search products…" aria-label="Search products">
-        <select id="category-filter" aria-label="Filter by category">
-          <option value="">All categories</option>
-        </select>
-        <button type="button" id="save-all" class="btn btn-primary">Save changes</button>
-        <button type="button" id="logout" class="btn btn-ghost">Log out</button>
-      </div>
-    </header>
+        <button type="button" id="logout" class="btn btn-outline btn-pill">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></svg>
+          Log out
+        </button>
+      </header>
 
-    <main class="admin-main">
-      <div class="stats-bar">
-        <span id="product-count">0 products</span>
-        <span id="dirty-count" class="dirty" hidden>• Unsaved changes</span>
-        <span id="last-updated"></span>
+      <div class="toolbar">
+        <input type="search" id="search" class="search-input" placeholder="Search products…" aria-label="Search products">
+        <button type="button" id="save-all" class="btn btn-dark">Save changes</button>
       </div>
-      <p id="status-msg" class="status-msg" hidden></p>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Image</th>
-              <th>Product</th>
-              <th>Pack</th>
-              <th>Category</th>
-              <th>Price (₹)</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody id="products-body"></tbody>
-        </table>
+
+      <div class="meta-row">
+        <span id="product-count" class="meta-text">0 products</span>
+        <span id="dirty-count" class="meta-dirty" hidden>• Unsaved changes</span>
+        <span id="last-updated" class="meta-text"></span>
       </div>
-    </main>
+
+      <p id="status-msg" class="status-banner" hidden></p>
+
+      <div id="category-pills" class="category-pills" role="tablist" aria-label="Filter by category"></div>
+
+      <div id="products-grid" class="products-grid"></div>
+    </div>
   </div>
 
   <script src="admin.js"></script>
