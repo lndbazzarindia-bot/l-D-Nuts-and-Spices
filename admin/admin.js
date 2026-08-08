@@ -52,15 +52,20 @@ function setDirty(value) {
 
 async function checkSession() {
   try {
-    const res = await fetch("/api/admin/session");
-    const data = await res.json();
-    if (data.authenticated) {
-      showScreen("admin");
-      await loadProducts();
-      return;
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 8000);
+    const res = await fetch("/api/admin/session", { signal: controller.signal });
+    clearTimeout(timer);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.authenticated) {
+        showScreen("admin");
+        await loadProducts();
+        return;
+      }
     }
   } catch (_) {
-    /* static preview */
+    /* API unavailable — show login */
   }
   showScreen("login");
 }
