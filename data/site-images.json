@@ -1,0 +1,23 @@
+{
+  "images": [
+    { "id": "logo", "label": "Logo", "path": "assets/img/logo.jpeg", "section": "Header & Footer" },
+    { "id": "hero-cashew", "label": "Hero main photo", "path": "assets/img/cashew.jpg", "section": "Hero" },
+    { "id": "hero-figs", "label": "Hero figs chip", "path": "assets/img/figs.jpg", "section": "Hero" },
+    { "id": "hero-cardamom", "label": "Hero cardamom chip", "path": "assets/img/cardamom.jpg", "section": "Hero" },
+    { "id": "hero-honey", "label": "Hero honey chip", "path": "assets/img/honey.jpg", "section": "Hero" },
+    { "id": "floater-walnuts", "label": "Hero walnuts floater", "path": "assets/img/walnuts.jpg", "section": "Hero" },
+    { "id": "floater-makhana", "label": "Hero makhana floater", "path": "assets/img/makhana.jpg", "section": "Hero" },
+    { "id": "floater-pepper", "label": "Hero pepper floater", "path": "assets/img/pepper.jpg", "section": "Hero" },
+    { "id": "floater-almonds", "label": "Hero almonds floater", "path": "assets/img/almonds.jpg", "section": "Hero" },
+    { "id": "floater-raisins", "label": "Hero raisins floater", "path": "assets/img/raisins.jpg", "section": "Hero" },
+    { "id": "floater-cinnamon", "label": "Hero cinnamon floater", "path": "assets/img/cinnamon.jpg", "section": "Hero" },
+    { "id": "story-gingelly", "label": "Story gingelly oil", "path": "assets/img/u/wood-pressed-gingelly-oil.webp", "section": "Story" },
+    { "id": "story-ghee", "label": "Story ghee", "path": "assets/img/u/ghee.jpeg", "section": "Story" },
+    { "id": "collection-nuts", "label": "Collection nuts panel", "path": "assets/img/cashew.jpg", "section": "Collection" },
+    { "id": "collection-dryfruits", "label": "Collection dry fruits", "path": "assets/img/figs.jpg", "section": "Collection" },
+    { "id": "collection-spices", "label": "Collection spices", "path": "assets/img/cinnamon.jpg", "section": "Collection" },
+    { "id": "collection-oils", "label": "Collection oils & ghee", "path": "assets/img/u/ghee.jpeg", "section": "Collection" },
+    { "id": "collection-gifts", "label": "Collection gift combos", "path": "assets/img/mixednuts.jpg", "section": "Collection" }
+  ],
+  "updatedAt": "2026-08-08T00:00:00.000Z"
+}

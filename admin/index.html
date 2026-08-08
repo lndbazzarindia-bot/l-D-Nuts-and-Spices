@@ -42,6 +42,12 @@
         </button>
       </header>
 
+      <div class="tab-row">
+        <button type="button" class="tab-btn tab-active" data-tab="products">Products</button>
+        <button type="button" class="tab-btn" data-tab="website">Website images</button>
+      </div>
+
+      <div id="panel-products">
       <div class="toolbar">
         <input type="search" id="search" class="search-input" placeholder="Search products…" aria-label="Search products">
         <button type="button" id="save-all" class="btn btn-dark">Save changes</button>
@@ -58,6 +64,12 @@
       <div id="category-pills" class="category-pills" role="tablist" aria-label="Filter by category"></div>
 
       <div id="products-grid" class="products-grid"></div>
+      </div>
+
+      <div id="panel-website" hidden>
+        <p class="panel-note">These photos appear on the homepage — hero, story, and collection sections.</p>
+        <div id="site-images-grid" class="products-grid"></div>
+      </div>
     </div>
   </div>
 
