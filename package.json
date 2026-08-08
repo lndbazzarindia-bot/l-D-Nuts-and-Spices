@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
-    "build:products": "node scripts/build-products-json.cjs"
+    "build:products": "node scripts/build-products-json.cjs",
+    "sync:images": "node scripts/sync-images.cjs"
   },
   "dependencies": {
     "@vercel/blob": "^0.27.0"

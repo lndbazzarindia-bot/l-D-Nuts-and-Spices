@@ -483,7 +483,7 @@
       "pack": "50 gm",
       "price": 125,
       "cat": "spices",
-      "img": "assets/img/t/chia.jpg",
+      "img": "assets/img/t/poppyseeds.jpg",
       "active": true
     },
     {
@@ -865,5 +865,5 @@
       "active": true
     }
   ],
-  "updatedAt": "2026-08-08T10:38:33.169Z"
+  "updatedAt": "2026-08-08T11:03:59.394Z"
 }

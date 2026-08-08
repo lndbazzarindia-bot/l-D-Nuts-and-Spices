@@ -23,7 +23,8 @@ module.exports = async function handler(req, res) {
   }
 
   try {
-    const { filename, dataUrl } = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+    const body = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
+    const { filename, dataUrl, targetPath } = body;
     if (!filename || !dataUrl || !dataUrl.startsWith("data:image/")) {
       res.status(400).json({ error: "Invalid image upload" });
       return;
@@ -37,6 +38,31 @@ module.exports = async function handler(req, res) {
 
     const mime = match[1];
     const buffer = Buffer.from(match[2], "base64");
+
+    if (targetPath) {
+      const safe = String(targetPath).replace(/\\/g, "/");
+      if (!safe.startsWith("assets/img/") || safe.includes("..")) {
+        res.status(400).json({ error: "Invalid target path" });
+        return;
+      }
+      if (process.env.BLOB_READ_WRITE_TOKEN) {
+        const { put } = await import("@vercel/blob");
+        const blob = await put(safe, buffer, {
+          access: "public",
+          contentType: mime,
+          addRandomSuffix: false,
+          allowOverwrite: true,
+        });
+        res.status(200).json({ url: blob.url });
+        return;
+      }
+      const filePath = path.join(process.cwd(), safe);
+      fs.mkdirSync(path.dirname(filePath), { recursive: true });
+      fs.writeFileSync(filePath, buffer);
+      res.status(200).json({ url: safe });
+      return;
+    }
+
     const ext = mime.includes("png") ? "png" : mime.includes("webp") ? "webp" : "jpg";
     const safeName = `${slugify(filename)}-${Date.now()}.${ext}`;
 
