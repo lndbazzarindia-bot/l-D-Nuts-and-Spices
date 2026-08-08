@@ -1,0 +1,869 @@
+{
+  "products": [
+    {
+      "id": "cashew-w240-250-gm",
+      "name": "Cashew (W240)",
+      "pack": "250 gm",
+      "price": 330,
+      "cat": "nuts",
+      "img": "assets/img/t/u-cashew-w240.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-w240-100-gm",
+      "name": "Cashew (W240)",
+      "pack": "100 gm",
+      "price": 140,
+      "cat": "nuts",
+      "img": "assets/img/t/u-cashew-w240.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-splits-1-kg",
+      "name": "Cashew Splits",
+      "pack": "1 kg",
+      "price": 1100,
+      "cat": "nuts",
+      "img": "assets/img/t/u-cashew-spilts.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-split-250-gm",
+      "name": "Cashew Split",
+      "pack": "250 gm",
+      "price": 280,
+      "cat": "nuts",
+      "img": "assets/img/t/u-cashew-spilts.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-split-100-gm",
+      "name": "Cashew Split",
+      "pack": "100 gm",
+      "price": 125,
+      "cat": "nuts",
+      "img": "assets/img/t/u-cashew-spilts.jpg",
+      "active": true
+    },
+    {
+      "id": "badam-jumbo-250-gm",
+      "name": "Badam Jumbo",
+      "pack": "250 gm",
+      "price": 340,
+      "cat": "nuts",
+      "img": "assets/img/t/u-badam-jumbo.jpg",
+      "active": true
+    },
+    {
+      "id": "badam-jumbo-premium-500-gm",
+      "name": "Badam Jumbo Premium",
+      "pack": "500 gm",
+      "price": 680,
+      "cat": "nuts",
+      "img": "assets/img/t/u-badam-jumbo-premium.jpg",
+      "active": true
+    },
+    {
+      "id": "badam-jambo-pack-250-gm",
+      "name": "Badam Jambo Pack",
+      "pack": "250 gm",
+      "price": 320,
+      "cat": "nuts",
+      "img": "assets/img/t/almonds.jpg",
+      "active": true
+    },
+    {
+      "id": "pista-salted-roasted-250-gm",
+      "name": "Pista, Salted & Roasted",
+      "pack": "250 gm",
+      "price": 425,
+      "cat": "nuts",
+      "img": "assets/img/t/u-pista-salt-and-roasted.jpg",
+      "active": true
+    },
+    {
+      "id": "pista-salted-roasted-100-gm",
+      "name": "Pista, Salted & Roasted",
+      "pack": "100 gm",
+      "price": 195,
+      "cat": "nuts",
+      "img": "assets/img/t/u-pista-salt-and-roasted.jpg",
+      "active": true
+    },
+    {
+      "id": "walnut-250-gm",
+      "name": "Walnut",
+      "pack": "250 gm",
+      "price": 490,
+      "cat": "nuts",
+      "img": "assets/img/t/u-walnut.jpg",
+      "active": true
+    },
+    {
+      "id": "walnut-premium-100-gm",
+      "name": "Walnut Premium",
+      "pack": "100 gm",
+      "price": 200,
+      "cat": "nuts",
+      "img": "assets/img/t/u-walnut-premium.jpg",
+      "active": true
+    },
+    {
+      "id": "hazel-nuts-250-gm",
+      "name": "Hazel Nuts",
+      "pack": "250 gm",
+      "price": 500,
+      "cat": "nuts",
+      "img": "assets/img/t/hazelnuts.jpg",
+      "active": true
+    },
+    {
+      "id": "brazil-nuts-250-gm",
+      "name": "Brazil Nuts",
+      "pack": "250 gm",
+      "price": 720,
+      "cat": "nuts",
+      "img": "assets/img/t/brazilnuts.jpg",
+      "active": true
+    },
+    {
+      "id": "peanuts-fried-200-gm",
+      "name": "Peanuts Fried",
+      "pack": "200 gm",
+      "price": 100,
+      "cat": "nuts",
+      "img": "assets/img/t/peanuts.jpg",
+      "active": true
+    },
+    {
+      "id": "peanuts-roasted-skinless-200-gm",
+      "name": "Peanuts Roasted, Skinless",
+      "pack": "200 gm",
+      "price": 95,
+      "cat": "nuts",
+      "img": "assets/img/t/u-peanut-roasted.jpg",
+      "active": true
+    },
+    {
+      "id": "fig-bold-special-250-gm",
+      "name": "Fig Bold Special",
+      "pack": "250 gm",
+      "price": 380,
+      "cat": "dryfruits",
+      "img": "assets/img/t/figs.jpg",
+      "active": true
+    },
+    {
+      "id": "fig-bold-premium-500-gm",
+      "name": "Fig Bold Premium",
+      "pack": "500 gm",
+      "price": 900,
+      "cat": "dryfruits",
+      "img": "assets/img/t/figs.jpg",
+      "active": true
+    },
+    {
+      "id": "fig-jambo-premium-250-gm",
+      "name": "Fig Jambo Premium",
+      "pack": "250 gm",
+      "price": 380,
+      "cat": "dryfruits",
+      "img": "assets/img/t/figs.jpg",
+      "active": true
+    },
+    {
+      "id": "fig-premium-100-gm",
+      "name": "Fig Premium",
+      "pack": "100 gm",
+      "price": 150,
+      "cat": "dryfruits",
+      "img": "assets/img/t/figs.jpg",
+      "active": true
+    },
+    {
+      "id": "apricot-250-gm",
+      "name": "Apricot",
+      "pack": "250 gm",
+      "price": 280,
+      "cat": "dryfruits",
+      "img": "assets/img/t/apricots.jpg",
+      "active": true
+    },
+    {
+      "id": "makhana-fox-nuts-250-gm",
+      "name": "Makhana (Fox Nuts)",
+      "pack": "250 gm",
+      "price": 400,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-makhana-fox-nuts.jpg",
+      "active": true
+    },
+    {
+      "id": "makhana-premium-250-gm",
+      "name": "Makhana Premium",
+      "pack": "250 gm",
+      "price": 370,
+      "cat": "dryfruits",
+      "img": "assets/img/t/makhana.jpg",
+      "active": true
+    },
+    {
+      "id": "makhana-lotus-seeds-50-gm",
+      "name": "Makhana (Lotus Seeds)",
+      "pack": "50 gm",
+      "price": 120,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-makhana-lotus-seeds.jpg",
+      "active": true
+    },
+    {
+      "id": "crown-dates-premium-500-gm",
+      "name": "Crown Dates Premium",
+      "pack": "500 gm",
+      "price": 300,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-crown-dates-premium.jpg",
+      "active": true
+    },
+    {
+      "id": "barari-dates-tunisian-500-gm",
+      "name": "Barari Dates, Tunisian",
+      "pack": "500 gm",
+      "price": 320,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-barari-dates-tunisian.jpg",
+      "active": true
+    },
+    {
+      "id": "black-hiranian-dates-500-gm",
+      "name": "Black Hiranian Dates",
+      "pack": "500 gm",
+      "price": 280,
+      "cat": "dryfruits",
+      "img": "assets/img/t/dates.jpg",
+      "active": true
+    },
+    {
+      "id": "dates-with-fried-badam-1-box",
+      "name": "Dates with Fried Badam",
+      "pack": "1 box",
+      "price": 280,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-dates-with-fried-badam.jpg",
+      "active": true
+    },
+    {
+      "id": "green-raisins-afghan-250-gm",
+      "name": "Green Raisins, Afghan",
+      "pack": "250 gm",
+      "price": 210,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-green-raisins-afghan.jpg",
+      "active": true
+    },
+    {
+      "id": "raisins-green-100-gm",
+      "name": "Raisins Green",
+      "pack": "100 gm",
+      "price": 80,
+      "cat": "dryfruits",
+      "img": "assets/img/t/raisins.jpg",
+      "active": true
+    },
+    {
+      "id": "raisins-black-with-seeds-100-gm",
+      "name": "Raisins Black, with Seeds",
+      "pack": "100 gm",
+      "price": 80,
+      "cat": "dryfruits",
+      "img": "assets/img/t/blackgrapes.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-black-grapes-with-seeds-250-gm",
+      "name": "Dry Black Grapes, with Seeds",
+      "pack": "250 gm",
+      "price": 200,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-dry-black-grapes-with-seeds.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-green-grapes-250-gm",
+      "name": "Dry Green Grapes",
+      "pack": "250 gm",
+      "price": 200,
+      "cat": "dryfruits",
+      "img": "assets/img/t/raisins.jpg",
+      "active": true
+    },
+    {
+      "id": "cranberries-dry-100-gm",
+      "name": "Cranberries Dry",
+      "pack": "100 gm",
+      "price": 140,
+      "cat": "dryfruits",
+      "img": "assets/img/t/cranberries.jpg",
+      "active": true
+    },
+    {
+      "id": "blueberries-dry-100-gm",
+      "name": "Blueberries Dry",
+      "pack": "100 gm",
+      "price": 240,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-blueberries-dry.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-cherry-100-gm",
+      "name": "Dry Cherry",
+      "pack": "100 gm",
+      "price": 130,
+      "cat": "dryfruits",
+      "img": "assets/img/t/cherries.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-strawberry-100-gm",
+      "name": "Dry Strawberry",
+      "pack": "100 gm",
+      "price": 140,
+      "cat": "dryfruits",
+      "img": "assets/img/t/strawberries.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-kiwi-100-gm",
+      "name": "Dry Kiwi",
+      "pack": "100 gm",
+      "price": 80,
+      "cat": "dryfruits",
+      "img": "assets/img/t/kiwi.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-pineapple-100-gm",
+      "name": "Dry Pineapple",
+      "pack": "100 gm",
+      "price": 100,
+      "cat": "dryfruits",
+      "img": "assets/img/t/pineapple.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-pineapple-candy-100-gm",
+      "name": "Dry Pineapple Candy",
+      "pack": "100 gm",
+      "price": 100,
+      "cat": "dryfruits",
+      "img": "assets/img/t/u-dry-pineapple-candy.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-amla-candy-200-gm",
+      "name": "Dry Amla Candy",
+      "pack": "200 gm",
+      "price": 100,
+      "cat": "dryfruits",
+      "img": "assets/img/t/amla.jpg",
+      "active": true
+    },
+    {
+      "id": "mango-toffee-fruit-bar-1-bar",
+      "name": "Mango Toffee Fruit Bar",
+      "pack": "1 bar",
+      "price": 160,
+      "cat": "dryfruits",
+      "img": "assets/img/t/mango.jpg",
+      "active": true
+    },
+    {
+      "id": "elachi-cardamom-50-gm",
+      "name": "Elachi (Cardamom)",
+      "pack": "50 gm",
+      "price": 250,
+      "cat": "spices",
+      "img": "assets/img/t/cardamom.jpg",
+      "active": true
+    },
+    {
+      "id": "elachi-cardamom-25-gm",
+      "name": "Elachi (Cardamom)",
+      "pack": "25 gm",
+      "price": 125,
+      "cat": "spices",
+      "img": "assets/img/t/cardamom.jpg",
+      "active": true
+    },
+    {
+      "id": "black-elachi-black-cardamom-25-gm",
+      "name": "Black Elachi (Black Cardamom)",
+      "pack": "25 gm",
+      "price": 80,
+      "cat": "spices",
+      "img": "assets/img/t/blackcardamom.jpg",
+      "active": true
+    },
+    {
+      "id": "pepper-100-gm",
+      "name": "Pepper",
+      "pack": "100 gm",
+      "price": 120,
+      "cat": "spices",
+      "img": "assets/img/t/pepper.jpg",
+      "active": true
+    },
+    {
+      "id": "jeera-cumin-100-gm",
+      "name": "Jeera (Cumin)",
+      "pack": "100 gm",
+      "price": 85,
+      "cat": "spices",
+      "img": "assets/img/t/jeera.jpg",
+      "active": true
+    },
+    {
+      "id": "shahjeera-100-gm",
+      "name": "Shahjeera",
+      "pack": "100 gm",
+      "price": 85,
+      "cat": "spices",
+      "img": "assets/img/t/u-shahjeera.jpg",
+      "active": true
+    },
+    {
+      "id": "karunjeeragam-black-cumin-100-gm",
+      "name": "Karunjeeragam (Black Cumin)",
+      "pack": "100 gm",
+      "price": 60,
+      "cat": "spices",
+      "img": "assets/img/t/nigella.jpg",
+      "active": true
+    },
+    {
+      "id": "sombu-fennel-seeds-100-gm",
+      "name": "Sombu (Fennel Seeds)",
+      "pack": "100 gm",
+      "price": 60,
+      "cat": "spices",
+      "img": "assets/img/t/u-sombu-fennel-seeds.jpg",
+      "active": true
+    },
+    {
+      "id": "kadugu-mustard-seeds-100-gm",
+      "name": "Kadugu (Mustard Seeds)",
+      "pack": "100 gm",
+      "price": 25,
+      "cat": "spices",
+      "img": "assets/img/t/mustard.jpg",
+      "active": true
+    },
+    {
+      "id": "venthayam-fenugreek-100-gm",
+      "name": "Venthayam (Fenugreek)",
+      "pack": "100 gm",
+      "price": 25,
+      "cat": "spices",
+      "img": "assets/img/t/fenugreek.jpg",
+      "active": true
+    },
+    {
+      "id": "ajwain-omum-100-gm",
+      "name": "Ajwain (Omum)",
+      "pack": "100 gm",
+      "price": 60,
+      "cat": "spices",
+      "img": "assets/img/t/ajwain.jpg",
+      "active": true
+    },
+    {
+      "id": "kasa-kasa-poppy-seeds-50-gm",
+      "name": "Kasa Kasa (Poppy Seeds)",
+      "pack": "50 gm",
+      "price": 125,
+      "cat": "spices",
+      "img": "assets/img/t/chia.jpg",
+      "active": true
+    },
+    {
+      "id": "pattai-cinnamon-bark-50-gm",
+      "name": "Pattai (Cinnamon Bark)",
+      "pack": "50 gm",
+      "price": 40,
+      "cat": "spices",
+      "img": "assets/img/t/u-pattai-cinnamon-bark.jpg",
+      "active": true
+    },
+    {
+      "id": "surul-pattai-cinnamon-rolls-25-gm",
+      "name": "Surul Pattai (Cinnamon Rolls)",
+      "pack": "25 gm",
+      "price": 80,
+      "cat": "spices",
+      "img": "assets/img/t/u-surul-pattai-cinnamon-bark.jpg",
+      "active": true
+    },
+    {
+      "id": "lavangam-clove-50-gm",
+      "name": "Lavangam (Clove)",
+      "pack": "50 gm",
+      "price": 60,
+      "cat": "spices",
+      "img": "assets/img/t/u-lavangam-clove.jpg",
+      "active": true
+    },
+    {
+      "id": "annasi-poo-star-anise-50-gm",
+      "name": "Annasi Poo (Star Anise)",
+      "pack": "50 gm",
+      "price": 80,
+      "cat": "spices",
+      "img": "assets/img/t/staranise.jpg",
+      "active": true
+    },
+    {
+      "id": "biriyani-leaf-bay-leaf-50-gm",
+      "name": "Biriyani Leaf (Bay Leaf)",
+      "pack": "50 gm",
+      "price": 25,
+      "cat": "spices",
+      "img": "assets/img/t/bayleaf.jpg",
+      "active": true
+    },
+    {
+      "id": "javithri-mace-25-gm",
+      "name": "Javithri (Mace)",
+      "pack": "25 gm",
+      "price": 85,
+      "cat": "spices",
+      "img": "assets/img/t/mace.jpg",
+      "active": true
+    },
+    {
+      "id": "jathikkai-nutmeg-per-piece",
+      "name": "Jathikkai (Nutmeg)",
+      "pack": "per piece",
+      "price": 12,
+      "cat": "spices",
+      "img": "assets/img/t/nutmeg.jpg",
+      "active": true
+    },
+    {
+      "id": "kalpasi-black-stone-flower-25-gm",
+      "name": "Kalpasi (Black Stone Flower)",
+      "pack": "25 gm",
+      "price": 50,
+      "cat": "spices",
+      "img": "assets/img/t/kalpasi.jpg",
+      "active": true
+    },
+    {
+      "id": "dry-rose-leafs-25-gm",
+      "name": "Dry Rose Leafs",
+      "pack": "25 gm",
+      "price": 50,
+      "cat": "spices",
+      "img": "assets/img/t/rosepetals.jpg",
+      "active": true
+    },
+    {
+      "id": "sunflower-seeds-100-gm",
+      "name": "Sunflower Seeds",
+      "pack": "100 gm",
+      "price": 60,
+      "cat": "seeds",
+      "img": "assets/img/t/sunflowerseeds.jpg",
+      "active": true
+    },
+    {
+      "id": "pumpkin-seeds-100-gm",
+      "name": "Pumpkin Seeds",
+      "pack": "100 gm",
+      "price": 85,
+      "cat": "seeds",
+      "img": "assets/img/t/pumpkinseeds.jpg",
+      "active": true
+    },
+    {
+      "id": "watermelon-seeds-100-gm",
+      "name": "Watermelon Seeds",
+      "pack": "100 gm",
+      "price": 120,
+      "cat": "seeds",
+      "img": "assets/img/t/watermelonseeds.jpg",
+      "active": true
+    },
+    {
+      "id": "cucumber-seeds-100-gm",
+      "name": "Cucumber Seeds",
+      "pack": "100 gm",
+      "price": 120,
+      "cat": "seeds",
+      "img": "assets/img/t/cucumberseeds.jpg",
+      "active": true
+    },
+    {
+      "id": "chia-seeds-100-gm",
+      "name": "Chia Seeds",
+      "pack": "100 gm",
+      "price": 75,
+      "cat": "seeds",
+      "img": "assets/img/t/chia.jpg",
+      "active": true
+    },
+    {
+      "id": "flax-seeds-100-gm",
+      "name": "Flax Seeds",
+      "pack": "100 gm",
+      "price": 30,
+      "cat": "seeds",
+      "img": "assets/img/t/flax.jpg",
+      "active": true
+    },
+    {
+      "id": "sabja-seeds-basil-100-gm",
+      "name": "Sabja Seeds (Basil)",
+      "pack": "100 gm",
+      "price": 60,
+      "cat": "seeds",
+      "img": "assets/img/t/sabja.jpg",
+      "active": true
+    },
+    {
+      "id": "pure-cow-ghee-1-kg",
+      "name": "Pure Cow Ghee",
+      "pack": "1 kg",
+      "price": 820,
+      "cat": "oils",
+      "img": "assets/img/t/u-ghee.jpg",
+      "active": true
+    },
+    {
+      "id": "pure-cow-ghee-500-gm",
+      "name": "Pure Cow Ghee",
+      "pack": "500 gm",
+      "price": 420,
+      "cat": "oils",
+      "img": "assets/img/t/u-ghee.jpg",
+      "active": true
+    },
+    {
+      "id": "pure-cow-ghee-200-gm",
+      "name": "Pure Cow Ghee",
+      "pack": "200 gm",
+      "price": 200,
+      "cat": "oils",
+      "img": "assets/img/t/u-ghee.jpg",
+      "active": true
+    },
+    {
+      "id": "wood-pressed-coconut-oil-1-ltr",
+      "name": "Wood Pressed Coconut Oil",
+      "pack": "1 ltr",
+      "price": 480,
+      "cat": "oils",
+      "img": "assets/img/t/u-coconut-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "coconut-oil-500-ml",
+      "name": "Coconut Oil",
+      "pack": "500 ml",
+      "price": 240,
+      "cat": "oils",
+      "img": "assets/img/t/u-coconut-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "wood-pressed-gingelly-oil-1-ltr",
+      "name": "Wood Pressed Gingelly Oil",
+      "pack": "1 ltr",
+      "price": 380,
+      "cat": "oils",
+      "img": "assets/img/t/u-wood-pressed-gingelly-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "gingelly-oil-500-ml",
+      "name": "Gingelly Oil",
+      "pack": "500 ml",
+      "price": 195,
+      "cat": "oils",
+      "img": "assets/img/t/u-gingelly-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "wood-pressed-groundnut-oil-1-ltr",
+      "name": "Wood Pressed Groundnut Oil",
+      "pack": "1 ltr",
+      "price": 290,
+      "cat": "oils",
+      "img": "assets/img/t/u-wood-pressed-groundnut-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "groundnut-oil-500-ml",
+      "name": "Groundnut Oil",
+      "pack": "500 ml",
+      "price": 145,
+      "cat": "oils",
+      "img": "assets/img/t/u-groundnut-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "castor-oil-500-ml",
+      "name": "Castor Oil",
+      "pack": "500 ml",
+      "price": 160,
+      "cat": "oils",
+      "img": "assets/img/t/u-castor-oil.jpg",
+      "active": true
+    },
+    {
+      "id": "kerala-forest-honey-250-gm",
+      "name": "Kerala Forest Honey",
+      "pack": "250 gm",
+      "price": 180,
+      "cat": "naturals",
+      "img": "assets/img/t/honey.jpg",
+      "active": true
+    },
+    {
+      "id": "badam-pisin-almond-gum-100-gm",
+      "name": "Badam Pisin (Almond Gum)",
+      "pack": "100 gm",
+      "price": 70,
+      "cat": "naturals",
+      "img": "assets/img/t/u-badam-pisin-almond-gum.jpg",
+      "active": true
+    },
+    {
+      "id": "panai-kalkandu-thool-100-gm",
+      "name": "Panai Kalkandu Thool",
+      "pack": "100 gm",
+      "price": 50,
+      "cat": "naturals",
+      "img": "assets/img/t/u-panai-kalkandu-thool.jpg",
+      "active": true
+    },
+    {
+      "id": "nattu-sarkkarai-country-sugar-500-gm",
+      "name": "Nattu Sarkkarai (Country Sugar)",
+      "pack": "500 gm",
+      "price": 50,
+      "cat": "naturals",
+      "img": "assets/img/t/jaggery.jpg",
+      "active": true
+    },
+    {
+      "id": "idly-podi-200-gm",
+      "name": "Idly Podi",
+      "pack": "200 gm",
+      "price": 90,
+      "cat": "podi",
+      "img": "assets/img/t/u-idly-podi.jpg",
+      "active": true
+    },
+    {
+      "id": "paruppu-podi-200-gm",
+      "name": "Paruppu Podi",
+      "pack": "200 gm",
+      "price": 90,
+      "cat": "podi",
+      "img": "assets/img/t/u-paruppu-podi.jpg",
+      "active": true
+    },
+    {
+      "id": "poondu-paruppu-podi-200-gm",
+      "name": "Poondu Paruppu Podi",
+      "pack": "200 gm",
+      "price": 90,
+      "cat": "podi",
+      "img": "assets/img/t/u-poondu-paruppu-podi.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-pepper-fry-100-gm",
+      "name": "Cashew Pepper Fry",
+      "pack": "100 gm",
+      "price": 140,
+      "cat": "podi",
+      "img": "assets/img/t/u-cashew-pepper-fry.jpg",
+      "active": true
+    },
+    {
+      "id": "cashew-chilli-fry-100-gm",
+      "name": "Cashew Chilli Fry",
+      "pack": "100 gm",
+      "price": 140,
+      "cat": "podi",
+      "img": "assets/img/t/spicedcashew.jpg",
+      "active": true
+    },
+    {
+      "id": "vvk-kadalai-mittai-250-gm",
+      "name": "VVK Kadalai Mittai",
+      "pack": "250 gm",
+      "price": 95,
+      "cat": "podi",
+      "img": "assets/img/t/u-vvk-kadalai-mittai.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-1-cashew-badam-100-gm-each",
+      "name": "Gift Combo 1",
+      "pack": "Cashew + Badam, 100 gm each",
+      "price": 300,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-2-cashew-badam-grapes-50-gm-each",
+      "name": "Gift Combo 2",
+      "pack": "Cashew + Badam + Grapes, 50 gm each",
+      "price": 350,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-3-cashew-badam-pista-fig-grapes-50-gm-each",
+      "name": "Gift Combo 3",
+      "pack": "Cashew + Badam + Pista + Fig + Grapes, 50 gm each",
+      "price": 500,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-4-cashew-badam-grapes-100-gm-each",
+      "name": "Gift Combo 4",
+      "pack": "Cashew + Badam + Grapes, 100 gm each",
+      "price": 450,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-5-cashew-badam-pista-fig-100-gm-each",
+      "name": "Gift Combo 5",
+      "pack": "Cashew + Badam + Pista + Fig, 100 gm each",
+      "price": 550,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    },
+    {
+      "id": "gift-combo-6-cashew-badam-pista-fig-grapes-100-gm-each",
+      "name": "Gift Combo 6",
+      "pack": "Cashew + Badam + Pista + Fig + Grapes, 100 gm each",
+      "price": 750,
+      "cat": "gifts",
+      "img": "assets/img/t/mixednuts.jpg",
+      "active": true
+    }
+  ],
+  "updatedAt": "2026-08-08T10:38:33.169Z"
+}

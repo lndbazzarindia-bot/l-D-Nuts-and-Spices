@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — L&amp;D Nuts &amp; Spices</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/jpeg" href="../assets/img/logo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div id="login-screen" class="screen">
+    <div class="login-card">
+      <img src="../assets/img/logo.jpeg" alt="L&amp;D" class="login-logo">
+      <h1>Shop Admin</h1>
+      <p>Sign in to update product prices and images.</p>
+      <form id="login-form">
+        <label for="password">Password</label>
+        <input type="password" id="password" autocomplete="current-password" required>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        <p id="login-error" class="error" hidden></p>
+      </form>
+      <a href="/" class="back-link">← Back to website</a>
+    </div>
+  </div>
+
+  <div id="admin-screen" class="screen" hidden>
+    <header class="admin-header">
+      <div class="admin-brand">
+        <img src="../assets/img/logo.jpeg" alt="">
+        <div>
+          <strong>L&amp;D Admin</strong>
+          <span>Prices &amp; images</span>
+        </div>
+      </div>
+      <div class="admin-actions">
+        <input type="search" id="search" placeholder="Search products…" aria-label="Search products">
+        <select id="category-filter" aria-label="Filter by category">
+          <option value="">All categories</option>
+        </select>
+        <button type="button" id="save-all" class="btn btn-primary">Save changes</button>
+        <button type="button" id="logout" class="btn btn-ghost">Log out</button>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <div class="stats-bar">
+        <span id="product-count">0 products</span>
+        <span id="dirty-count" class="dirty" hidden>• Unsaved changes</span>
+        <span id="last-updated"></span>
+      </div>
+      <p id="status-msg" class="status-msg" hidden></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Product</th>
+              <th>Pack</th>
+              <th>Category</th>
+              <th>Price (₹)</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="products-body"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
