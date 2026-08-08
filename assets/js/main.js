@@ -20,6 +20,9 @@ const REVIEWS = [
   { text: "Good quality", name: "madhukeshwar talwar, Local Guide", rating: 5 }
 ];
 
+async function initSite() {
+await loadProducts();
+
 gsap.registerPlugin(ScrollTrigger);
 
 document.getElementById("year").textContent = new Date().getFullYear();
@@ -221,6 +224,23 @@ document.addEventListener("click", e => {
 
 /* ---------- shelves: manual navigation with (< >) controls ---------- */
 
+function buildGifts() {
+  const grid = document.querySelector(".gifts-grid");
+  if (!grid) return;
+  const gifts = PRODUCTS.filter((p) => p.cat === "gifts");
+  if (!gifts.length) return;
+  grid.innerHTML = "";
+  gifts.forEach((p, i) => {
+    const article = document.createElement("article");
+    article.className = "gift reveal";
+    article.innerHTML =
+      `<h3>Combo ${i + 1}</h3>` +
+      `<p>${p.pack.replace(/, /g, "<br>")}</p>` +
+      `<strong>${rupees(p.price)}</strong>`;
+    grid.appendChild(article);
+  });
+}
+
 function shelfCard(p) {
   const card = document.createElement("article");
   card.className = "shelf-card";
@@ -283,6 +303,7 @@ function buildShelves() {
 }
 
 buildShelves();
+buildGifts();
 
 /* ---------- reviews (real ones only; hidden while empty) ---------- */
 
@@ -414,3 +435,6 @@ mm.add(
     return () => {};
   }
 );
+}
+
+initSite();
